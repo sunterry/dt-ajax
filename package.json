@@ -1,0 +1,33 @@
+{
+  "name": "dt-ajax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunterry/dt-ajax.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunterry/dt-ajax/issues"
+  },
+  "homepage": "https://github.com/sunterry/dt-ajax#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "terser-webpack-plugin": "^1.1.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.2.0",
+    "@babel/runtime-corejs2": "^7.2.0"
+  }
+}
