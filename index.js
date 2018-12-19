@@ -1,6 +1,6 @@
 const ajax = (params = {}) => {
-	const { data } = params.data || {};
-	const json = params.jsonp ? dtJsonp(params) : dtAjax(params);
+	params.data = params.data || {};
+	params.jsonp ? dtJsonp(params) : dtAjax(params);
 };
 
 function dtAjax(params) {
@@ -78,4 +78,4 @@ function formatParams(data) {
 }
 
 
-ajax();
+export default ajax;
